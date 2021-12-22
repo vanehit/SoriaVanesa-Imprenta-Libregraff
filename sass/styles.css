@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------pagina preguntas frecuentes------------------------*/
+.header__question {
+  background: #421752;
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: auto;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+main .panel__group {
+  margin-bottom: 20px;
+}
+
+main .panel panel--pregunta {
+  color: #333;
+  background-color: #f5f5f5;
+  border-color: #ddd;
+}
+
+main .panel-heading {
+  padding: 10px 15px;
+  border-bottom: 1px solid transparent;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.footer {
+  background: #fafafa;
+}
+
+.footer .footer__caption {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap-reverse;
+      flex-wrap: wrap-reverse;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer .footer__caption .politicas {
+  width: 50%;
+}
+
+.footer .footer__caption .politicas .footer__copy {
+  width: 100%;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer .footer__caption .politicas .copyright {
+  width: 100%;
+}
+
+.footer .footer__caption .politicas .politica__privacidad {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.footer .footer__caption .politicas .politica__privacidad:hover {
+  text-decoration: underline;
+}
+
+.footer .footer__caption .politicas .politica__privacidad--margin {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer .footer__caption .politicas .politicas {
+    width: 100%;
+  }
+}
+
+.footer .footer__caption .social__Media {
+  width: 50%;
+}
+
+.footer .footer__caption .social__Media .title__footer {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.footer .footer__caption .social__Media .socialmedia {
+  margin-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: black;
+}
+
+.footer .footer__caption .social__Media .socialmedia .socialmedia__icon {
+  font-size: 18px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+@media screen and (max-width: 900px) {
+  .footer .footer__caption .social__Media .social__Media {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .footer .footer__caption .social__Media .socialmedia__icon {
+    font-size: 18px;
+  }
+  .footer .footer__caption .social__Media .socialmedia__legend {
+    font-size: 18px;
+  }
+}
+
+.footer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #fff;
+}
+
+.footer .contact .item__contact {
+  width: 25%;
+  padding: 60px 0;
+  text-align: center;
+  background: #421752;
+}
+
+.footer .contact .item__contact .item__contact--green {
+  background: #08a508;
+  color: black;
+}
+
+.footer .contact .item__contact .contact__icon {
+  font-size: 14px;
+  color: #08a508;
+  line-height: 20px;
+  margin-right: 4px;
+}
+
+.footer .contact .item__contact .contact__icon--modifier {
+  color: #421752;
+}
+
+.footer .contact .item__contact .contact__title {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 900px) {
+  .footer .container-background .background {
+    width: 52%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer .container-background .background {
+    width: 65%;
+    margin-bottom: 40px;
+  }
+  .footer .container-background .background .background__copy {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer .container-background .background {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

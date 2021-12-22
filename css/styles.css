@@ -47,16 +47,13 @@ body{
     font-weight: 700;
 }
 
-.point{
-    color:rgb(21, 226, 21) ;
-}
 
 .grafica__main{
     height: calc(100vh - 70px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:0;
+    
 }
 
 .isotipo{
@@ -92,10 +89,12 @@ body{
 }
 /*---------------------- fin-header ------------------*/
 
-/*------------------------- services ----------------*/
+/*------------------------- main-services ----------------*/
 
 .services{
     background: #fafafa;
+    padding: 26px;
+    
 }
 
 .subtitle{
@@ -161,12 +160,6 @@ body{
 }
 
 
-.card__title{
-    font-size: 40px;
-    color: #fff;
-    margin-bottom: 8px;
-}
-
 .card__copy{
     color:honeydew;
     margin-bottom: 16px;
@@ -184,6 +177,7 @@ body{
     padding: 12px 0;
 }
 
+/*section-pojects container--*/
 
 .container-background{
     display: flex;
@@ -372,16 +366,6 @@ body{
 }
 
 
-.container__nav{
-    width: 90%;
-    height: 1200px;
-    margin: 0 auto;
-    overflow: hidden;
-    padding: 0;
-    height: auto;
-
-}
-
 .about__paragraph{
     line-height: 1.7;
     width: 40%;
@@ -413,7 +397,7 @@ body{
 
 .section__us{
     color:black;
-    font-size: 32px;
+    font-size: 18px;
     
 }
 
